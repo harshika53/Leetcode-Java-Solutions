@@ -15,10 +15,10 @@ class Solution {
 		  return;
 	  }
 	  if(open < n) {
-	  para(str+"(",open +1, close, n);//including opening
+	  para(str+"(",open +1, close, n);
 	  }
 	  if(close< open) {
-	  para(str+")", open, close+1, n);//excluding closing
+	  para(str+")", open, close+1, n);
   }
  }
 }
